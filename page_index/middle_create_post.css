@@ -1,0 +1,27 @@
+#middle_create_post{
+  display: grid;
+  grid-template-columns: auto 100fr;
+  grid-gap: 1rem;
+  padding: 1rem;
+  border-bottom: 3px solid rgba(200, 200, 200, 1);
+}
+#middle_create_post > .left > img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+#middle_create_post > .right > .top{
+  height: 5rem;
+  outline: none;
+}
+#middle_create_post > .right > .bottom{
+  display: grid;
+  grid-template-columns: 100fr 50fr;
+  align-items: center;
+}
+#middle_create_post > .right > .bottom > .left{
+  font-weight: 400;
+}
+#middle_create_post > .right > .bottom > .right > button{
+  width: 20%;
+}

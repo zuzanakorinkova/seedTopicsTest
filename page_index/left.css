@@ -1,0 +1,68 @@
+#left{
+  position: fixed;
+  /* left: 1rem; */
+  width: calc(30%);
+  /* width: 28%; */
+  height: 100vh;
+  padding: 1rem 1rem 1rem 2rem;
+  /* background: #222; */
+}
+#left > button{
+  bottom: 1rem;
+}#left > nav{
+  padding: 1rem 0;
+}
+#left > nav ul{
+  list-style: none;
+}
+#left > nav ul li{
+  padding: 0.7rem 0;
+}
+#left > nav ul li a{
+  position: relative;
+  font-size: 1.3rem;
+  font-weight: 300;
+  text-decoration: none;
+  color: black;
+}
+#left > nav ul li a span{
+  display: grid;
+  place-content: center;
+  position: absolute;
+  top: -0.5rem;
+  left: 1rem;
+  width: 1.3rem;
+  height: 1.3rem;
+  padding: 0.2rem;
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: white;
+  background: rgba(29, 161, 242, 1);
+  background: rgb(229,65,73);
+  border-radius: 50%;
+}
+#left > nav ul li a.active{
+  font-weight: 700;
+  color: rgba(29, 161, 242, 1);
+}
+#left > nav ul li a i{
+  /* display: none; */
+  font-size: 1.6rem;
+  margin-right: 1rem;
+  /* color: rgba(0, 0, 0, 0.2); */
+}#left > #search{
+
+}
+#left > #search form{
+  position: relative;
+}
+#left > #search form input{
+  padding-left: 2rem;
+  padding-right: 0.5rem;
+  background: rgba(230,236,240, 1);
+}
+#left > #search form i{
+  position: absolute;
+  top: 1rem;
+  left: 0.5rem;
+}
